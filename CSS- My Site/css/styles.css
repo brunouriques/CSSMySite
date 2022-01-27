@@ -1,0 +1,110 @@
+/********************todolist*********************
+-corrigir o menu fixo
+***********************************************/
+* {
+  margin: 0;
+}
+
+/*--o seletor * pode ser usado para se referir a todas as classes, mas o atom fica chato demais quando usa ele */
+body {
+  text-align: center;
+  font-family: 'Dongle', sans-serif;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  /* 100% ou 1em ou 1rem (rootem) em tamanho de fonte= 16px.*/
+  color: #072227;
+  margin: 1000px, auto, 0. auto;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Dongle', sans-serif;
+  color: #072227;
+  font-size: 2.8rem;
+  color: #66BFBF;
+  font-weight: normal
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+p {
+  font-family: 'Dongle', sans-serif;
+  color: #072227;
+  font-size: 2rem;
+}
+
+/*.menu{
+  background-color: #4FBDBA;
+  height: 90px;
+}
+*/
+.topDiv {
+  background-color: #C1FFD7;
+  /*background-color: #AEFEFF;*/
+  /*background-color: #95D1CC;*/
+  height: 650px;
+  padding-top: 15%;
+  position: relative;
+}
+
+.midDiv {}
+
+.botDiv {}
+
+.top-cloud {
+  position: absolute;
+  right: 20%;
+  top: 18%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: 40%;
+  left: 22%;
+}
+
+.montanha {
+  position: absolute;
+  bottom: 5%;
+  left: 27.5%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 100px auto; /* quando muda a width o text align zera, para recentralizar setar margin para auto na esquerda e na direita.*/
+}
+.skillParagraph{
+  text-align: left;
+  line-height: 75%;
+}
+.skillH3{
+  text-align: left;
+  line-height: 2;
+}
+.profilePic {
+  width: 15%;
+}
+
+.pencilPic {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.computerPic {
+  width: 15%;
+  float: right;
+  margin-right: 30px;
+}
+
+/****************Anotações******************/
+/*  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  (efeito de vidro sobre o fundo)/*
